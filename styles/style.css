@@ -15,12 +15,14 @@
 	padding-bottom: 50px;
 	padding-left: 100px;
 	padding-right: 100px;
+	border-radius: 10px;
 }
 
 #pomidoro
 {
 	background-color: #CCCCFF;
 	padding: 30px;
+	border-radius: 10px;
 }
 
 #countdown
@@ -29,18 +31,27 @@
 	font-size: 40pt;
 	font-weight: bold;
 }
-
+button{
+	outline: none;
+}
 .pomidoroBtn
 {
+	border: 2px solid #999999;
+    border-radius: 10px;
 	width: 100px;
 	height: 50px;
 	font-size: 15pt;
 	font-weight: 900;
+	
 }
 
 #startBtn
 {
 	background-color: #99FF99;
+}
+#startBtn:hover
+{
+	background-color: #88EE88;
 }
 
 #stopBtn
@@ -48,7 +59,17 @@
 	background-color: #FF9999;
 }
 
+#stopBtn:hover
+{
+	background-color: #EE8888;
+}
+
 #pauseBtn
 {
 	background-color: #FFFF99;
+}
+
+#pauseBtn:hover
+{
+	background-color: #EEEE88;
 }
