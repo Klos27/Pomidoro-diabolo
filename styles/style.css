@@ -1,0 +1,54 @@
+﻿body{
+	background-color: #404040;
+	color: #ffffff;	/* font */
+	font-size: 20px;
+	text-align: center;
+}
+
+#container
+{
+	width: 1000px;
+	background-color: #606060;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+#pomidoro
+{
+	background-color: #CCCCFF;
+	padding: 30px;
+}
+
+#countdown
+{
+	color: black;
+	font-size: 40pt;
+	font-weight: bold;
+}
+
+.pomidoroBtn
+{
+	width: 100px;
+	height: 50px;
+	font-size: 15pt;
+	font-weight: 900;
+}
+
+#startBtn
+{
+	background-color: #99FF99;
+}
+
+#stopBtn
+{
+	background-color: #FF9999;
+}
+
+#pauseBtn
+{
+	background-color: #FFFF99;
+}
